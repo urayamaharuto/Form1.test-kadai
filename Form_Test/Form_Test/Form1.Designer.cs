@@ -1,4 +1,6 @@
-﻿namespace Form_Test
+﻿using System;
+
+namespace Form_Test
 {
     partial class Form1
     {
@@ -57,6 +59,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
